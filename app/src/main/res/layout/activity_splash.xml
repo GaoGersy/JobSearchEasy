@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#5EB7CE"
+    tools:context="com.gersion.stallareview.ui.activity.SplashActivity">
+    <TextView
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:text="你找工作的时候有遇到过烦人的培训机构吗？\n\n有感觉到培训机构很难鉴别吗？\n\n让我们联合起来，一起完善培训机构的数据。\n\n让培训机构无处盾行！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
